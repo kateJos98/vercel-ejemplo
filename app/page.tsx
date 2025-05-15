@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main style={{ padding: 20 }}>
-      <h1>Seleccionar</h1>
+      <h1>Hola mundo</h1>
 
       <div style={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
         <div>

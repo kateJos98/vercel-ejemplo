@@ -1,17 +1,14 @@
-// app/layout.tsx
+import './globals.css';
+
+
 export const metadata = {
   title: 'Ejemplo Vercel',
-  description: 'Página con 3 selects',
+  description: 'Página_descripcion de Vercel',
 };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body className="bg-gray-100">{children}</body>
     </html>
   );
 }

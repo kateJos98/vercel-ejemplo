@@ -9,21 +9,21 @@ export default function PortalDistribuido() {
         
         {/* Título principal */}
         <h1 className="text-5xl font-extrabold fond-semibold text-center text-gray-900 mb-8">
-          🌐 Portal Distribuido
+          🌐 Distributed Portal
         </h1>
 
         {/* Sección de información */}
         <div className="bg-gradient-to-br from-indigo-100 to-white border border-indigo-200 rounded-2xl p-6 transition-all hover:shadow-lg">
-          <h2 className="text-2xl font-bold text-indigo-700 mb-3">🛠️ Bienvenido a Vercel</h2>
+          <h2 className="text-2xl font-bold text-indigo-700 mb-3">🛠️ Welcome to Vercel</h2>
           <p className="text-gray-700 leading-relaxed text-justify">
-            Te encuentras en la entrada del Frontend, desplegado gracias a <strong>Vercel</strong>, 
-            una plataforma especializada en llevar interfaces web modernas directamente al navegador del usuario.<br/>
+            You are at the entrance of the Frontend, deployed thanks to <strong>Vercel</strong>, 
+            a platform specialized in bringing modern web interfaces directly to the user's browser.<br/>
             <br/>
-           Vercel se caracteriza por ser una plataforma enfocada en el despliegue rápido y eficiente de aplicaciones frontend, 
-           especialmente aquellas desarrolladas con frameworks como Next.js, React, Vue, entre otras. 
-           Destaca por su facilidad de uso, ya que permite desplegar directamente desde repositorios Git con configuración mínima, 
-           creando entornos de previsualización automáticos para cada cambio. 
-           <br/>Gracias a su <em>CDN global</em>, garantiza escalabilidad automática sin configuración y una experiencia de desarrollo ágil y fluida.
+            Vercel is characterized as a platform focused on the rapid and efficient deployment of front-end applications,
+            especially those developed with frameworks such as Next.js, React, Vue, among others.
+            It stands out for its ease of use, allowing deployment directly from Git repositories with minimal configuration,
+            creating automatic preview environments for each change. 
+           <br/>Thanks to your <em>CDN global</em>, ensures automatic scalability without configuration and a smooth, agile development experience.
           </p>
         </div>
       </div>
